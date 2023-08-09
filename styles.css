@@ -1,0 +1,26 @@
+*{
+    background-color:rgb(212, 155, 70);
+}
+
+.heading {
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: bold;
+        
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.links {
+    text-align: center;
+    list-style: square;
+    list-style-position: inside;
+    font-size: 30px;
+    
+    font-family: 'Courier New', Courier, monospace;
+}
