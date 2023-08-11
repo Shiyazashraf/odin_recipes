@@ -1,26 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cherry+Bomb+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Black+Han+Sans&family=Cherry+Bomb+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Black+Han+Sans&family=Cherry+Bomb+One&family=Rubik+Dirt&display=swap');
+
 *{
-    background-color:rgb(212, 155, 70);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:  'Cherry Bomb One', sans-serif;
 }
-
-.heading {
-        text-align: center;
-        font-family: sans-serif;
-        font-weight: bold;
-        
-}
-
-.image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-.links {
-    text-align: center;
-    list-style: square;
-    list-style-position: inside;
-    font-size: 30px;
+body {
+    background: url(./assets/background3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+    z-index: -1;
+   
     
-    font-family: 'Courier New', Courier, monospace;
 }
+
+header {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.h2 {
+    color: white;
+    margin-left:2em;
+    font-size: 40px;
+
+
+}
+.navbar {
+    position: relative;
+    margin-right: 45%;
+}
+.navbar a {
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+.navbar a:hover,.container a:hover {
+    color: rgb(4, 168, 168);
+    
+}
+
+.container {
+   display: block;
+   margin-left: 6%;
+   margin-top: 9%;
+   padding: 5px;
+    width:700px;
+}
+
+.container h3 {
+    font-size: 40px;
+    color: white;
+    font-family: 'Rubik Dirt', sans-serif;
+    margin-left: 50px;
+    
+}
+.container ul{
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    list-style-type: none;
+    line-height: 2.5;
+}
+.container a {
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 20%;
+    font-size: 35px;
+    font-family: 'Rubik Dirt', sans-serif;
+}
+
+
